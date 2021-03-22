@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <Nav />
+    <Feed />
   </div>
 </template>
 
 <script>
 import Nav from './components/Nav'
+import Feed from './components/Feed'
 
 export default {
   name: 'App',
   components: {
-    Nav
+    Nav,
+    Feed
   }
 }
 </script>
