@@ -1,8 +1,6 @@
 <template>
   <div class="feed-container">
-<div class="posts">
-    <p v-for="post in allPosts" :key="post.id">{{post.title}}</p>
-</div>
+      
   </div>
 </template>
 
