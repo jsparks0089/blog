@@ -5,8 +5,13 @@
 </template>
 
 <script>
+import {mapGetters} from 'vuex'
+
 export default {
-    name: "Feed"
+    name: "Feed",
+    computed: mapGetters(
+        [allPosts
+    ])
 }
 </script>
 
