@@ -1,15 +1,17 @@
 <template>
   <div class="feed-container">
-      
+      <Post />
   </div>
 </template>
 
 <script>
-import {mapGetters} from 'vuex'
+import Post from './Post'
 
 export default {
     name: "Feed",
-    computed: mapGetters(['allPosts'])
+    components: {
+      Post
+    }
 }
 </script>
 

@@ -1,19 +1,24 @@
 <template>
   <div id="app">
     <Nav />
-    <Feed />
+    <div class="container">
+      <Contents />
+      <Feed />
+    </div>
   </div>
 </template>
 
 <script>
 import Nav from './components/Nav'
 import Feed from './components/Feed'
+import Contents from './components/Contents.vue'
 
 export default {
   name: 'App',
   components: {
     Nav,
-    Feed
+    Feed,
+    Contents
   }
 }
 </script>
