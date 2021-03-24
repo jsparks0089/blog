@@ -16,5 +16,7 @@ export default {
 </script>
 
 <style>
-
+.feed-container {
+  margin: 20px 40px;
+}
 </style>

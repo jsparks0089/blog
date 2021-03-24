@@ -35,4 +35,7 @@ body {
 #app {
   height: 100vh;
 }
+.container {
+  display: flex; 
+}
 </style>
