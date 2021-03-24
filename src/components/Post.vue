@@ -14,5 +14,8 @@ export default {
 </script>
 
 <style>
-
+.body {
+  font-size: 1.5rem;
+  color: #505050;
+}
 </style>

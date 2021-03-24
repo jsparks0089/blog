@@ -25,6 +25,7 @@ export default {
 }
 .post-title {
     padding: 10px 20px;
+    color: #505050;
 }
 .post-title:hover {
     background-color: #AAABB8;
