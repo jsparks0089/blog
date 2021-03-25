@@ -3,7 +3,7 @@
     <div class="nav1">
       
     </div>
-    <div class="title">
+    <div class="nav-title">
        <h1 class="title-link">Blog</h1>
     </div>
     <div class="nav2">

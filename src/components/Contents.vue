@@ -1,17 +1,28 @@
 <template>
   <div class="cont-container">
       <ul class="list-container">
-          <li class="post-title" v-for="post in allPosts" :key="post.id">{{post.title}}</li>
+          <!-- <li @click="setPostId(post.id)" class="post-title" v-for="post in allPosts" :key="post.id">{{post.title}}</li> -->
       </ul>
   </div>
 </template>
 
 <script>
-import {mapGetters} from 'vuex'
+
 
 export default {
     name: "Contents",
-    computed: mapGetters(['allPosts'])
+    data() {
+        return {
+            allPosts: [],
+            postId: 0,
+        }
+    },
+    methods: {
+      setPostId(id) {
+          this.postId = id;
+          
+      }
+    }
 }
 </script>
 
@@ -29,5 +40,6 @@ export default {
 }
 .post-title:hover {
     background-color: #AAABB8;
+    cursor: pointer;
 }
 </style>

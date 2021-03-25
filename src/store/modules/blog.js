@@ -15,12 +15,11 @@ const state = {
             title: "Blog 1",
             body: "This is Blog 1"
         }
-    ]
+    ],
+    postId: 0
 }
 
-const getters = {
-    allPosts: (state) => state.posts
-}
+const getters = {}
 
 const actions = {}
 
